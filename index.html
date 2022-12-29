@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TutorialsOne</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <style>
+        .a {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .b {
+            text-align: center;
+            color: brown;
+        }
+
+        .c {
+            text-align: center;
+            margin-top: 20px;
+            color: green;
+            font-size: 25px;
+        }
+
+        .d {
+            border: 3px solid black;
+        }
+
+        .icon {
+            font-size: 30px;
+            font-weight: 600;
+            color: chocolate;
+        }
+
+        body {
+            background: #EBDDF3;
+        }
+        .result_box {
+            text-align: center;
+            background: white;
+            border: 2px solid green;
+            height: 30px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .input_box {
+            text-align: center;
+            height: 30px;
+            border: 2px solid royalblue;
+            background: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="b">
+        <h2>
+            Welcome To My First Calculator Programme
+        </h2>
+    </div>
+    <div class="d">
+        <div class="a">
+            <div>
+                <input class="input_box" type="number" id="f" placeholder="input first number" />
+            </div>
+
+            <div>
+                <input class="input_box" type="number" id="s" placeholder="input second number" />
+            </div>
+        </div>
+
+        <div class="a">
+            <div>
+                <button class="icon" onclick="btnClick()">
+                    +
+                </button>
+            </div>
+
+            <div>
+                <button class="icon" onclick="minus()">
+                    -
+                </button>
+            </div>
+
+            <div>
+                <button class="icon" onclick="multiply()">
+                    *
+                </button>
+            </div>
+
+
+            <div>
+                <button class="icon" onclick="division()">
+                    /
+                </button>
+            </div>
+
+            <div>
+                <button class="icon" onclick="percentage()">
+                    %
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="tutorialsOne.js"></script>
+</body>
+
+</html>
